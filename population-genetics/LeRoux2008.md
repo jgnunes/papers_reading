@@ -3,8 +3,8 @@ Molecular systematics and population genetics of biological invasions: towards a
 
 # Authors  
 * Sergey Nurk
-* Brian P Walenz1
-* Arang Rhie1
+* Brian P Walenz
+* Arang Rhie
 * Mitchell R Vollger
 * Glennis A Logsdon
 * Robert Grothe
