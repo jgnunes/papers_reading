@@ -13,4 +13,8 @@ This repo is a collection of notes on papers that I have read
 
 
 ### Update list of articles 
-In order to programatically update the list of articles in this README file, one can run the script [get_article_titles.py](https://github.com/jgnunes/papers_reading/blob/master/get_article_titles.py)
+In order to programatically update the list of articles in this README file, one can clone the current repository into a local machine and then run the script [get_article_titles.py](https://github.com/jgnunes/papers_reading/blob/master/get_article_titles.py) at the root directory:  
+
+```console  
+python get_article_titles.py  
+```
