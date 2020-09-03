@@ -1,8 +1,16 @@
 # Article  
+ Population‐level inferences from environmental DNA — Current status and future perspectives ([link here[(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976968/))
 
 # Authors  
+* Eva Egelyng Sigsgaard
+* Mads Reinholdt Jensen
+* Inger Eleanor Winkelmann 
+* Peter Rask Møller
+* Michael Møller Hansen
+* Philip Francis Thomsen
 
-# Journal and Year  
+# Journal and Year
+Evolutionary Applications (2020)
 
 # Highlights  
 * (...) for eDNA research to attain its full potential within molecular ecology, the field needs to **progress from mitochondrial eDNA** to leveraging the much higher‐resolution information contained within **nuclear DNA**  
