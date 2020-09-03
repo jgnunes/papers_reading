@@ -1,5 +1,5 @@
 # Article  
- Population‐level inferences from environmental DNA — Current status and future perspectives ([link here[(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976968/))
+ Population‐level inferences from environmental DNA — Current status and future perspectives ([link here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976968/))
 
 # Authors  
 * Eva Egelyng Sigsgaard
