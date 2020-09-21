@@ -22,7 +22,8 @@ arXiv (2020)
 
 ## 3. Hifiasm algorithm  
 
-<img src="https://user-images.githubusercontent.com/22843614/93812829-88121800-fc28-11ea-9cc0-b51dd48d259e.png" width=50%></img>
+<img src="https://user-images.githubusercontent.com/22843614/93812829-88121800-fc28-11ea-9cc0-b51dd48d259e.png" width=70%></img>
+
 
 
 # New tools to take a look  
