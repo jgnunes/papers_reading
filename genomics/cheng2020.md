@@ -20,6 +20,9 @@ arXiv (2020)
 ## 2. On HiCanu (a competitor) limitations   
 * However, HiCanu only tries to keep the contiguity of one parental haplotype and often breaks the contiguity of the other haplotype. When we separate parental haplotypes, these break points will lead to fragmented haplotype-resolved assemblies. HiCanu is not making use of the full power of HiFi reads.  
 
+## 3. Hifiasm algorithm  
+
+
 # New tools to take a look  
 * 
 
