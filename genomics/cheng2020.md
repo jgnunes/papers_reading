@@ -51,7 +51,7 @@ arXiv (2020)
  * Last, hifiasm uses the “best overlap graph” strategy to deal with a few remaining unresolvable hard substructures on the assembly graph;  
  * In most cases, the graph topological information and the phasing information is more reliable than only keeping the longer overlaps. As a result, hifiasm is able to generate a **better primary assembly** than current assemblers which mainly rely on “best overlap graph” strategy
 
-<img src="https://user-images.githubusercontent.com/22843614/93936404-887be300-fcfc-11ea-92f7-0a2fab04541a.png" width="70%"></img>  
+<img src="https://user-images.githubusercontent.com/22843614/93936404-887be300-fcfc-11ea-92f7-0a2fab04541a.png" width="50%"></img>  
 
 **Figure 3. Example hifiasm and HiCanu assembly graphs.** The graphs were generated from HG002 reads mapped to chr11:19,310,012-21,493,943. Red bars correspond to unitigs matching the maternal haplotype, blue to paternal, grey to homozygous unitigs present on both parental haplotypes, and pink bars correspond to wrongly phased unitigs that join paternal and maternal haplotypes.
 
