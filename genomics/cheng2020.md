@@ -42,7 +42,18 @@ arXiv (2020)
 * Owing to the fact that there are still a few errors at the corrected reads, hifiasm adopts a topological-aware graph cleaning strategy to cut too short overlaps and avoid destroying substructures embedding local phasing information like bubbles;  
 
 ## 3.3 Constructing a primary assembly  
+* The construction of the primary assembly aims to produce contigs including **one set of haplotypes** but may **switch subregions between haplotypes**;  
+    * In other words, each subregion in the primary assembly only comes from one haplotype, while the corresponding subregions of other haplotypes are removed as duplications
+* First, each bubble in the graph is reduced into a single path using bubble popping;  
+    * This step removes most duplicated subregions on different haplotypes without hampering the contiguity of primary assembly  
+* Second, given a tip unitig *T* (Figure 3) that is broken in one end but connected to a unitig *C* in another end, hifiasm checks if there are other contigs, which are also connected to *C*, coming from the different haplotypes of *T*. If such contigs are identified, hifiasm removes tip *T* so that that unitig *C* will become longer  
+    * The reason is that for *T*, its corresponding region from different haplotype has already been integrated into the new longer unitig *C*  
+ * Last, hifiasm uses the “best overlap graph” strategy to deal with a few remaining unresolvable hard substructures on the assembly graph;  
+ * In most cases, the graph topological information and the phasing information is more reliable than only keeping the longer overlaps. As a result, hifiasm is able to generate a **better primary assembly** than current assemblers which mainly rely on “best overlap graph” strategy
 
+<img src="https://user-images.githubusercontent.com/22843614/93936404-887be300-fcfc-11ea-92f7-0a2fab04541a.png" width="70%"></img>  
+
+**Figure 3. Example hifiasm and HiCanu assembly graphs.** The graphs were generated from HG002 reads mapped to chr11:19,310,012-21,493,943. Red bars correspond to unitigs matching the maternal haplotype, blue to paternal, grey to homozygous unitigs present on both parental haplotypes, and pink bars correspond to wrongly phased unitigs that join paternal and maternal haplotypes.
 
 # New tools to take a look  
 * 
