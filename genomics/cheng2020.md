@@ -22,7 +22,9 @@ arXiv (2020)
 
 ## 3. Hifiasm algorithm  
 
-<img src="https://user-images.githubusercontent.com/22843614/93812829-88121800-fc28-11ea-9cc0-b51dd48d259e.png" width=70%></img>
+<img src="https://user-images.githubusercontent.com/22843614/93812829-88121800-fc28-11ea-9cc0-b51dd48d259e.png" width=70%></img>  
+
+Figure 1. Outline of the hifiasm algorithm. Reads in orange and blue represent the reads with heterozygous alleles carrying local phasing information, while reads in green come from the homozygous regions without any heterozygous alleles. In phased string graph, a vertex corresponds to the HiFi read with same ID, and an edge between two vertices indicates that their corresponding reads are overlapped with each other. Hifiasm first performs haplotype-aware error correction to correctsequence errors but keep heterozygous alleles, and then builds phased assembly graph with local phasing information from thecorrected reads. Only the reads coming from the same haplotype are connected in the phased assembly graph. Withcomplementary data providing global phasing information, hifiasm generates a completely phased assembly for each haplotypefrom the graph. Hifiasm also can generate unphased primary assembly only with HiFi reads. This unphased primary assemblyrepresents phased blocks (regions) that are resolvable with HiFi reads, but does not preserve phasing information between two phased blocks.
 
 
 
