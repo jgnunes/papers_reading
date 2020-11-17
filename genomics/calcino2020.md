@@ -13,7 +13,7 @@ BiorXiv (2020)
 ## Highlight 1
 
 # New tools to take a look  
-
+pbsv for structural variation detection with PacBio reads: [link](https://github.com/PacificBiosciences/pbsv)
 # New data types to take a look  
 
 # Questions  
