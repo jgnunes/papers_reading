@@ -43,11 +43,14 @@ A useful application of population genetics is to quantify patterns of isolation
 
 (...) WGR data were used to infer the source populations of specific alleles that facilitated the successful colonization of Canadian agricultural landscapes by A. tuberculatus.
 ### 2.2 Making the most of genomic data  
-Whole-genome resequencing increases our ability to infer the geographic origin of invasive populations. For relatively simple invasion scenarios, this increase in precision could be insignificant compared to other sequencing technologies, such as RRS, which may record a sufficient amount of information per sample to reach the same conclusion as WGR data.
+Whole-genome resequencing **increases our ability** to infer the **geographic origin** of invasive populations. For relatively simple invasion scenarios, this increase in precision could be insignificant compared to other sequencing technologies, such as RRS, which may record a sufficient amount of information per sample to reach the same conclusion as WGR data.
 
 This is relevant because geographic coverage is more important than genomic coverage when reconstructing invasion routes. Therefore, unless WGR is simultaneously being used to address a different research question (e.g., quantifying admixture during invasion or inferring the timing of an invasion event), a **greater individual sample size** with **reduced genomic representation** may often be **superior** to a **smaller sample size of WGR samples**.
 
 WGR will probably **add most value** to geographic inference where there is a **weak signature of population structure**, or in studies of admixed invasive populations aiming to infer the **geographic origin** of **specific loci**.
+
+### 3. Inferring demographic change during invasion and quantifying its impact on invasion success  
+
 
 # New tools to take a look  
 * [Locator](https://onlinelibrary.wiley.com/servlet/linkout?suffix=null&dbid=16&doi=10.1111%2Fmec.15999&key=10.7554%2FeLife.54507): Predicting geographic location from genetic variation with deep neural networks
